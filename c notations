@@ -1,0 +1,29 @@
+#include <stdio.h> //this is a header and beside it there is a library that contains pre made functions
+
+int main() //this is a function and to be more specific this is the main function that will run the intire program, the function opens and closes with curly brackets
+{
+    printf("Hello World");//printf it is a function used to input and output text and it is also a statment
+    //statments are like comands that you write to the compiler and every code its made of a lot of statments
+    printf("\noiiiiiii\nmeu nome é olaf\n");//to jump a line use \n
+    //the technical name for \n is escape sequence and it forces the cursor to change its position to the beginning of the next line on the screen
+    // (( "\t" creates a horizontal tab)) (( "//" insertes a blacklash character (\) )) (( "\""" inserts a double quote character ))
+    /* 
+    multi-line comments 
+    */
+    int myNum = 15;
+    char myLetter = 'd';
+    float myFloat = 1.50;//remember to use . instead of , in float numbers
+    //format specifier its used together with printf() function, starts with a percentage %, followed by a character
+    //the format specifiers are %d for int %c for char and %f for float
+    printf("%d \n",myNum);
+    printf("%f \n",myFloat);
+    printf("%c \n",myLetter);
+    //you can also print variables without a fomart specifier 
+    printf("%d i like this number", 40 );
+    printf("\ni like this character %c", 'b');
+    //If you assign a new value to an existing variable, it will overwrite the previous value
+    myNum = 79;
+    printf("\n%d this is my new number", myNum);
+    
+    return 0;
+}
