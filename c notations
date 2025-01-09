@@ -24,6 +24,18 @@ int main() //this is a function and to be more specific this is the main functio
     //If you assign a new value to an existing variable, it will overwrite the previous value
     myNum = 79;
     printf("\n%d this is my new number", myNum);
+    //existing variables can be alocated in orthers existing variables
+    int myOtherNum = 90;
+    myNum = myOtherNum;
+    printf("\n myNum was 79 and now it is %d", myNum);
+    //to declare more than one variable you can use a comma
+    int p=89, u=27, k=21;
+    printf("\n the sum of three different numbers %d",p + u + k);
+    //declare the same value to multiple variables
+    int x, y, z;
+    x = y = z = 50;
+    printf("\n the sum of three equal numbers %d", x + y + z);
+    
     
     return 0;
 }
