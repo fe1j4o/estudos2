@@ -34,8 +34,15 @@ int main() //this is a function and to be more specific this is the main functio
     //declare the same value to multiple variables
     int x, y, z;
     x = y = z = 50;
-    printf("\n the sum of three equal numbers %d", x + y + z);
-    
+    printf("\n the sum of three equal numbers %d\n", x + y + z);
+    //basic math problem
+    int length = 4;
+    int width = 3;
+    int area;
+    area = length * width;
+    printf("length is: %d\n", length);
+    printf("width is: %d\n", width);
+    printf("area of the rectangle is: %d", area);
     
     return 0;
 }
