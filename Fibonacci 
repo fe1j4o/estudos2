@@ -1,0 +1,9 @@
+include <stdio.h>
+int main(){
+  int imaginario, real=1;
+for(imaginario = 0; imaginario <= 30; imaginario++){
+  imaginario + real;
+    printf("%d \n",real);
+  }
+  return 0;
+}
