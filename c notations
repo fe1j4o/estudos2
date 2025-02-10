@@ -18,6 +18,9 @@ int main() //this is a function and to be more specific this is the main functio
     printf("%d \n",myNum);
     printf("%f \n",myFloat);
     printf("%c \n",myLetter);
+//to creat a string use the syntax char variable [n] = "string";
+char MyName[10]="danilo"
+printf("%c \n", MyName);
     //you can also print variables without a fomart specifier 
     printf("%d i like this number", 40 );
     printf("\ni like this character %c", 'b');
@@ -43,6 +46,10 @@ int main() //this is a function and to be more specific this is the main functio
     printf("length is: %d\n", length);
     printf("width is: %d\n", width);
     printf("area of the rectangle is: %d", area);
+//you can use variable += to add a x number to the variable and -= follows the same logic
+int userInput;
+scanf("%d", &A);
+printf("digite um numero \n");
     
     return 0;
 }
