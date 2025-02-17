@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int a,b,c,auxb;
+    printf("digite o valor de a: ");
+    scanf("%d", &a);
+    printf("\ndigite o valor de b: ");
+    scanf("%d", &b);
+    printf("\ndigite o valor de c: ");
+    scanf("%d", &c);
+    //lembrar que a recebe b ( a <- b)
+    auxb = b;
+    b = a;
+    printf("\n valor de a: %d", b);
+    a = c;
+    printf("\n valor de a: %d", a);
+    c = auxb;
+    printf("\n valor de c: %d", c);
+
+    return 0;
+}
