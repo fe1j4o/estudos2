@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float peso, altura, imc;
+    printf("digite seu peso: ");
+    scanf("%f", &peso);
+    printf("digite sua altura: ");
+    scanf("%f", &altura);
+    imc = peso / (pow(altura,2));
+    printf("seu IMC é: %.2f", imc);
+    
+    return 0;
+}
