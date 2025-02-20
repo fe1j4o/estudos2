@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    float nota_1, nota_2, nota_3, media;
+    printf("digite a nota_1: ");
+    scanf("%f", &nota_1);
+    printf("\n digite a nota_2: ");
+    scanf("%f", &nota_2);
+    printf("\n digite a nota_3: ");
+    scanf("%f", &nota_3);
+    media = (nota_1 + (nota_2 * 2) + (nota_3 * 3) ) / 6;
+    printf("\n a media do aluno é: %.2f", media);
+    
+    return 0;
+}
