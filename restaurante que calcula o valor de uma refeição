@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    float prato = 0.5, kg_balanca, valor;
+    printf("digite o peso descrito na balanca: ");
+    scanf("%f", &kg_balanca);
+    kg_balanca -= prato;
+    valor = kg_balanca * 12;
+    printf("o cliente ira pagar %.2f", valor);
+
+    return 0;
+}
