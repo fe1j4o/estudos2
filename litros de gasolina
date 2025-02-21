@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    float gasolina, preco_litro = 7.30, pagamento;
+    printf("digite quantos reias de gasolina voce deseja: ");
+    scanf("%f", &pagamento);
+    gasolina = pagamento / preco_litro;
+    printf("com R$%.2f voce compra %.2f litros de gasolina", pagamento, gasolina);
+
+    return 0;
+}
