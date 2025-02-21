@@ -1,18 +1,17 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
-    float paes, broas, total; 
-    printf("digite a quantidade de pães vendidos: ");
-    scanf("%f", &paes);
-    printf("\n digite a quantidade de broas vendidas: ");
-    scanf("%f", &broas);
-    paes *= 0.12 ;
-    broas *= 1.50;
-    //total = (10 / 100) * total;
-    printf("%.2f %.2f", paes, broas);
-    printf("\n %f", total);
-    
-
-    return 0;
-}
+ int main() {
+     
+     float paes, broas, total;
+     printf("digite a quantidade de pães vendidos: ");
+     scanf("%f", &paes);
+     printf("\ndigite a quantidade de broas vendidas: ");
+     scanf("%f", &broas);
+     paes *= 0.12;
+     broas *= 1.50;
+     total = paes + broas;
+     total *= 10;
+     printf("\nvoce deve guardar %.2f na poupanca", total / 100);
+return 0;
+ }
