@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int dias, mes, dias_ano;
+    printf("digite o dia do mes: ");
+    scanf("%d", &dias);
+    printf("digite o mes: ");
+    scanf("%d", &mes);
+    mes -= 1;
+    mes *= 30;
+    dias_ano = mes + dias;
+    printf("ja se passaram %d dias do ano", dias_ano);
+
+    return 0;
+}
