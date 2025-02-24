@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int p, m, g, total;
+    printf("quantidade de camisas pequenas desejadas: ");
+    scanf("%d", &p);
+    printf("\nquantidade de camisas médias desejadas: ");
+    scanf("%d", &m);
+    printf("\nquantidade de camisas grandes desejadas: ");
+    scanf("%d", &g);
+    total = (p*10) + (m*12) + (g*15);
+    printf("\no total arrecadado foi de R$%d", total);
+
+    return 0;
+}
