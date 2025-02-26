@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    float nota;
+    int freq;
+    printf("digite a nota do aluno: ");
+    scanf("%f", &nota);
+    printf("\ndigite a frequência do aluno: ");
+    scanf("%d", &freq);
+    if(nota>=7.5 && freq>=75){
+        printf("\naprovado");
+    }
+    else{
+        printf("reprovado");
+    }
+
+    return 0;
+}
