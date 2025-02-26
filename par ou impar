@@ -4,12 +4,16 @@ int main() {
     int num;
     printf("digite um numero: ");
     scanf("%d", &num);
-    num %= 2;
-    if(num==0){
-        printf("\neste numero é par");
+    if(num%2 !=0){
+        printf("\neste numero é impar");
     }
     else{
-        printf("\neste número é ímpar ");
+        if(num==0){
+             printf("\no nunero é neutro e par");
+    }
+        else{
+             printf("\n o numero é par");
+    }
     }
 
     return 0;
