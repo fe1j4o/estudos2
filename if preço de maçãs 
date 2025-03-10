@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int apples;
+    float pagamento;
+    printf("digite a quantidade de maças desejadas: ");
+    scanf("%d", &apples);
+    if(apples<12){
+        pagamento= apples * 0.30;
+        printf("comprando %d macas voce paga: %.2f",apples, pagamento);
+    }
+    else{
+      pagamento= apples * 0.25;
+      printf("comprando %d macas voce paga: %.2f",apples, pagamento);
+    }
+    
+    return 0;
+}
