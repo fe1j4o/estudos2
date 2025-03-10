@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char senha[11];
+    printf("digite a senha: ");
+    scanf("%s", senha);
+    if(strcmp(senha,"1234")== 0){
+        printf("cofre aberto");
+    }
+    else{
+        printf("senha incorreta");
+    }
+    
+    return 0;
+}
