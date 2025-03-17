@@ -21,8 +21,11 @@ int main(){
 		area = (5 * comprimento * comprimento) / (4 * tan(PI / 5));
 		printf("a area do pentagono é %f", area);
 	}
+	else if(lados<3){
+		printf("nao é um poligono");
+	}
 	else{
-		printf("por favor digite 3, 4 ou 5");
+		printf("poligono nao identificado");
 	}
 	return 0;
 }
